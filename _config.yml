@@ -1,74 +1,63 @@
-# Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
+# Welcome to Jekyll!
 
-# Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
-timezone:
+# Website settings
+title: Jalpc
+description: Jack's blog,use Jekyll and github pages.
+keywords: Jack,Jalpc,blog,Jekyll,github,gh-pages
+baseurl:  /Jalpc # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
+url: http://jarrekk.github.io/Jalpc  # url should be 'http://<github_username>.github.io/homepage' as before
+# url: http://127.0.0.1:4000
+img_path: /Jalpc/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
 
-# URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https:/ZofiaMiao.github.io
-root: ""
-permalink: :year/:month/:day/:title/
-permalink_defaults:
+# author -- index page "about me" section
+author:  # change following line to your infomation.
+  name: GitHub  # Be used at blog posts' author.
+  first_name: Hub  # Be used at index page about me section.
+  last_name: Git  # Be used at index page about me section.
+  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
+  github_username: jarrekk  # Leave blank if you don't have now
+  linkedin_id: kun-jia-991264a2 # Leave blank if you don't have now
+  facebook_username: jiakunnj  # Leave blank if you don't have now
+  twitter_username: jiakun614  # Leave blank if you don't have now
+  email: me@jarrekk.com  # Leave blank if you don't have now
+  cv: http://cv.jarrekk.com  # A online CV can be printed as PDF, leave blank if you don't have now
+  # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
+  skill_icon1:
+    - name: icon-apache
+    - name: fa-linux
+  skill_icon2:
+    - name: fa-linux
+    - name: icon-apache
+  desc: Introduce myself will be here.  # Describe yourself.
 
-# Directory
-source_dir: source
-public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
-code_dir: downloads/code
-i18n_dir: :lang
-skip_render:
+# comment
+disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
+  name: jalpc
+  public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
 
-# Writing
-new_post_name: :title.md # File name of new posts
-default_layout: post
-titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
-filename_case: 0
-render_drafts: false
-post_asset_folder: false
-relative_link: false
-future: true
-highlight:
-  enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace:
+# analytics
+## google analytics
+ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
+  # id:
 
-# Category & Tag
-default_category: uncategorized
-category_map:
-tag_map:
+## google optimize
+go:
+  # id:
 
-# Date / Time format
-## Hexo uses Moment.js to parse and display date
-## You can customize the date format as defined in
-## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
-time_format: HH:mm:ss
+## growingIO
+gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
+  # id:
 
-# Pagination
-## Set per_page to 0 to disable pagination
-per_page: 10
-pagination_dir: page
+## donation
+donation: on  # type 'on'/'off' to choice display donation button at post page or not
 
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
-theme: landscape
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  # repository:https://github.com/ZofiaMiao/ZofiaMiao.github.io.git
-  branch:master
-  
+# Build settings
+encoding: utf-8
+
+# other settings
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
