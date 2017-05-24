@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4e2272c8-3a4a-48b3-91f7-d4a5c98ab29a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -260,7 +258,7 @@
       <workItem from="1495441809962" duration="1280000" />
       <workItem from="1495510260565" duration="698000" />
       <workItem from="1495591510085" duration="927000" />
-      <workItem from="1495613178378" duration="1982000" />
+      <workItem from="1495613178378" duration="1996000" />
     </task>
     <task id="LOCAL-00001" summary="改文字">
       <created>1495510720432</created>
@@ -339,11 +337,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495615729211</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="换个模板">
+      <created>1495616394281</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1495616394281</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5269000" />
+    <option name="totallyTimeSpent" value="5283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="989" extended-state="0" />
