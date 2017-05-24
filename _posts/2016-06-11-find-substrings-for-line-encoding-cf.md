@@ -2,7 +2,7 @@
 layout: post
 title:  "Find Substrings for line Encoding [CF]"
 date:   2016-06-11 03:04:23 +0700
-categories: [python, codefights]
+categories: [样式, 编程]
 ---
 
 Given a string, return its encoding defined as follows:
