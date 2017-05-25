@@ -149,7 +149,7 @@ div.col-sm-3 img.profile-avatar {
 }
 
 .share-page {
-  padding: 10px 10px 0 5px;
+  padding: 10px 10px 0 0px;
   border-top: 1px solid #f0f0f0;
   font-size: 12px;
 }
@@ -165,8 +165,27 @@ div.col-sm-3 img.profile-avatar {
     max-width: 255px;
   }
 }
+.expand-btn{
+  display: none;
+}
 @media (max-width: 768px) {
   div.col-sm-3 {
-    margin-top: 30px;
+    display: none;
+  }
+  .expand-btn{
+    padding:5px;
+    border:1px solid #8C8C8C;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+  }
+  .expand-btn .bar{
+    display: block;
+    width: 20px;
+    height:2px;
+    background: #8C8C8C;
+  }
+  .expand-btn .bar:nth-child(2){
+    margin:3px 0;
   }
 }
