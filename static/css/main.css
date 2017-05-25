@@ -173,19 +173,25 @@ div.col-sm-3 img.profile-avatar {
     display: none;
   }
   .expand-btn{
+    display: block;
+    width: 27px;
     padding:5px;
     border:1px solid #8C8C8C;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
+    margin:15px;
   }
   .expand-btn .bar{
     display: block;
-    width: 20px;
+    width: 15px;
     height:2px;
     background: #8C8C8C;
   }
   .expand-btn .bar:nth-child(2){
     margin:3px 0;
+  }
+  .expand-btn:active{
+    background: #ddd;
   }
 }
