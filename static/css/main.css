@@ -170,7 +170,20 @@ div.col-sm-3 img.profile-avatar {
 }
 @media (max-width: 768px) {
   div.col-sm-3 {
-    display: none;
+    width: 50%;
+    margin: 0;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    bottom: 0;
+    background: #000;
+    left: 0;
+    text-align: center;
+    padding: 30px 10px;
+  }
+  div.col-sm-3>mask{
+    background: #000;
+    opacity: .5;
   }
   .expand-btn{
     display: block;
