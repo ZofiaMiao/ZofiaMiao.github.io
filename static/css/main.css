@@ -165,9 +165,10 @@ div.col-sm-3 img.profile-avatar {
     max-width: 255px;
   }
 }
-.expand-btn{
+.expand-btn,mask{
   display: none;
 }
+
 @media (max-width: 768px) {
   div.col-sm-3 {
     width: 50%;
@@ -176,14 +177,30 @@ div.col-sm-3 img.profile-avatar {
     z-index: 10;
     top: 0;
     bottom: 0;
-    background: #000;
     left: 0;
     text-align: center;
     padding: 30px 10px;
   }
   div.col-sm-3>mask{
+    display: block;
+    width: 100%;
+    position: absolute;
+    height: 100%;
     background: #000;
-    opacity: .5;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    opacity: .8;
+  }
+  div.col-sm-8>mask{
+    display: block;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background: #000;
+    opacity:.2;
   }
   .expand-btn{
     display: block;
