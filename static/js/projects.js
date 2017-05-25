@@ -18,6 +18,14 @@
 			else
 				$('.project-item').filterTags( $(this).data('tag') );
 		});
+		$(".expand-btn").click(function () {
+			$(".container>.col-sm-3").show();
+			$(".mask").show();
+        })
+		$(".container>.col-sm-8>.mask").click(function () {
+            $(".container>.col-sm-3").hide();
+            $(".mask").hide();
+        })
 	});
 
 	$.fn.extend({

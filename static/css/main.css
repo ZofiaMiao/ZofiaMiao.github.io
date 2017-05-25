@@ -171,6 +171,7 @@ div.col-sm-3 img.profile-avatar {
 
 @media (max-width: 768px) {
   div.col-sm-3 {
+    display: none;
     width: 50%;
     margin: 0;
     position: fixed;
@@ -182,7 +183,6 @@ div.col-sm-3 img.profile-avatar {
     padding: 30px 10px;
   }
   div.col-sm-3>.mask{
-    display: block;
     width: 100%;
     position: absolute;
     height: 100%;
@@ -193,14 +193,13 @@ div.col-sm-3 img.profile-avatar {
     opacity: .8;
   }
   div.col-sm-8>.mask{
-    display: block;
     position: fixed;
     top:0;
     left:0;
     right:0;
     bottom:0;
     background: #000;
-    opacity:.2;
+    opacity:.3;
   }
   .expand-btn{
     display: block;
