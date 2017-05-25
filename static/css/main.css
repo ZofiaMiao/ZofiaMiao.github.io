@@ -181,7 +181,7 @@ div.col-sm-3 img.profile-avatar {
     text-align: center;
     padding: 30px 10px;
   }
-  div.col-sm-3>mask{
+  div.col-sm-3>.mask{
     display: block;
     width: 100%;
     position: absolute;
@@ -192,7 +192,7 @@ div.col-sm-3 img.profile-avatar {
     z-index: -1;
     opacity: .8;
   }
-  div.col-sm-8>mask{
+  div.col-sm-8>.mask{
     display: block;
     position: fixed;
     top:0;
