@@ -165,7 +165,7 @@ div.col-sm-3 img.profile-avatar {
     max-width: 255px;
   }
 }
-.expand-btn,.mask{
+.expand-btn,div.col-sm-8 .mask{
   display: none;
 }
 
