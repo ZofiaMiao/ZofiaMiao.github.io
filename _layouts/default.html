@@ -177,12 +177,12 @@ layout: compress
     <script src="/static/js/projects.js"></script>
     <script>
         $(".expand-btn").click(function () {
-            $(".container>.col-sm-3").show("fast");
-            $(".mask").show("fast");
+            $(".container>.col-sm-3").fadeIn("fast");
+            $(".mask").fadeIn("fast");
         });
         $(".container>.col-sm-8>.mask").click(function () {
-            $(".container>.col-sm-3").hide("fast");
-            $(".mask").hide("fast");
+            $(".container>.col-sm-3").fadeOut("fast");
+            $(".mask").fadeOut("fast");
         });
     </script>
   </body>
