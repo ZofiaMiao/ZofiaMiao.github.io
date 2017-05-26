@@ -189,7 +189,7 @@ div.col-sm-3 img.profile-avatar {
     left: 0;
     top: 0;
     z-index: -1;
-    opacity: .8;
+    opacity: .9;
   }
   div.col-sm-8>.mask{
     position: fixed;
