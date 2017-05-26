@@ -178,12 +178,12 @@ layout: compress
     <script>
         $(".expand-btn").click(function () {
 //            $(".container>.col-sm-3").fadeIn("fast");
-            $(".container>.col-sm-3").stop().animate({"left","0%"},swing);
+            $(".container>.col-sm-3").stop().animate({left,"0%"},1000);
             $(".mask").fadeIn("fast");
 
         });
         $(".container>.col-sm-8>.mask").click(function () {
-            $(".container>.col-sm-3").stop().animate({"left","-50%"},swing);
+            $(".container>.col-sm-3").stop().animate({left,"-50%"},1000);
             $(".mask").fadeOut("fast");
         });
     </script>
